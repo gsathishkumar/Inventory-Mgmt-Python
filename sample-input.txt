@@ -1,0 +1,6 @@
+{'name' : 'Eraser', 'category' : 'stationary', 'price': 2 , 'quantity': 20}
+{'name' : 'Pencil', 'category' : 'stationary', 'price': 5 , 'quantity': 100}
+{'name' : 'Lipstick', 'category' : 'beauty', 'price': 10 , 'quantity': 10}
+{'name' : 'Brown eggs', 'category' : 'dairy', 'price': 20.5 , 'quantity': 5}
+{'name' : 'Strawberry', 'category' : 'fruit', 'price': 50 , 'quantity': 10}
+{'name' : 'apple', 'category' : 'fruit', 'price': 99.58 , 'quantity': 30}
