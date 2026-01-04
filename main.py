@@ -1,9 +1,18 @@
-from login.options import select_role
-from core.operations import show_menu_by_role
+
+from dotenv import load_dotenv
+from operations import select_user, show_menu, load_inventory
+from utils import get_bool_env
+
+inventory = None;
+
+# Load variables from the .env file
+load_dotenv()
 
 if __name__ == '__main__':
   print('Welcome to Inventory Management System')
+  load_inventory(get_bool_env("init_products"))
   try:
-    show_menu_by_role(select_role())
-  except ValueError as e:
+    user = select_user()
+    show_menu(user)
+  except Exception as e:
     print(e)
